@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+:root {
+    --color-uno: #3B5971;
+    --color-dos: #E5E5E5;
+    --color-tres:#3b597177;;
+    --background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    --color: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    --pading-uno: 0px 20px;
+    --padding-dos: 30px 0px;
+    --padding: 50px 0px;
+    --margin: 150px 0px;
+    --height: 50vh;
+    --width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.header {
+   width: 100%;
+   position: fixed;
+   z-index: 1;
+   background-color: #1C233D;
+}
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+  
+}
+
+.nav-shappire_title h1{
+    color: var(--color-dos);
+    font-size: 26px;
+}
+
+div ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    color: var(--color-dos);
+    font-size: 20px;
+}
+
+.nav__search-title {
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+
+.content-input {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.search {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 24rem;
+    color: var(--color-dos);
+    font-size: 15px;
+}
+
+.img__search img{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.nav-sigin a {
+    text-decoration: none;
+    color: var(--color-dos);
+    font-size: 20px;
+    background: var(--background);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+
+.main {
+    background-color: #1C233D;
+}
+
+.section__one {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    justify-content: center; 
+    align-content: space-around; 
+    justify-items: center; 
+    align-items: center; 
+    padding: 0px 30px;
+}
+
+.section__grid-one  {
+    margin: 0px 20px;
+    padding: 0px 30px;
+}
+
+.section__grid-one .one__title {
+    color: var(--color-dos);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.second__title p {
+    color: var(--color-dos);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+
+.tree__link {
+    padding: 20px 0px;
+}
+
+.tree__link a {
+    color: var(--color-dos);
+    font-size: 20px;
+    text-decoration: none;
+    background:var(--background);
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.img-grid__two {
+    background-color: #3b597177;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.img-grid__two img {
+    border-radius: 10px;
+    
+}
+
+.title__monkey {
+    color: var(--color-dos);
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+
+.section__two {
+    height: 30vh;
+    padding: 100px 0px;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.section__two__status {
+    width: 90vw;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-dos);
+    padding: 30px 0px;
+}
+
+.edit_number {
+    font-size: 29px;
+    font-weight: 800;
+}
+.section__two__sponsor {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.section__tree {
+    width: 100%;
+   padding: 20px 20px;
+}
+
+
+.section__tree .title__NFT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+.section__tree .title__NFT .nft__subtitle{
+    color: rgba(194, 103, 230, 0.798);
+    font-size: 20px;
+}
+
+.section__tree .title__NFT .super__hot__title{
+    color: var(--color-dos);
+    font-size: 30px;
+}
+
+.section__tree .list__nft {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.section__tree .list__nft a {
+ text-decoration: none;
+ color: var(--color-dos);
+ font-size: 22px;
+ background-color: #3b5971cb;
+ padding: 6px 20px;
+ border-radius: 5px;
+}
+
+.nft__card__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px 12px;
+}
+
+.nft__card__section .card {
+    background-color: #30384D;
+    padding: 20px 50px;
+    border-radius: 10px;
+    color: var(--color-dos);
+}
+.content-img__card img {
+    border-radius: 6px;
+}
+
+.card .title__card {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.content-flex__card {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 29px;
+}
+
+.claro__current {
+    color: #545C71;
+}
+
+.card:hover {
+    transform: scale(1.06);
+    transition: 1.02s all;
+    cursor: pointer;
+    background: var(--background);
+}
+@media (max-width: 1000px) {
+    .section__one {
+        padding: 30px 0px;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        padding: 0px 50px;
+        align-content: center;
+    }
+
+    .list-none {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .section__one {
+        padding: 100px 0px 0px 0px;
+    }
+    .section__grid-two {
+        margin: 30px 0px;
+    }
+    .nav-header {
+        flex-direction: column;
+    }
+
+    .nav-sigin {
+        display: none;
+    }
+
+    .search {
+        width: 20rem;
+    }
+
+    .img-grid__two img {
+        width: 18rem;
+    }
+}
